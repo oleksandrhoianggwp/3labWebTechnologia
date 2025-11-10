@@ -1,8 +1,6 @@
 "use strict";
 
-// ------------------------------
 // 1.2.3 – 1.2.6: CAR OBJECTS
-// ------------------------------
 
 const car1 = new Object();
 car1.color = "silver";
@@ -91,9 +89,8 @@ truckAurora.trip();
 truckNord.trip();
 console.groupEnd();
 
-// ------------------------------
-// 1.2.11 – 1.2.24: ES6 CLASSES
-// ------------------------------
+
+// 1.2.11 – 1.2.24
 
 const degToRad = (degrees) => (degrees * Math.PI) / 180;
 
@@ -292,10 +289,7 @@ rhombusSample.info();
 parallelogramSample.info();
 console.groupEnd();
 
-// ------------------------------
 // 1.2.25 – 1.2.26: TRIANGULAR FACTORY FUNCTION
-// ------------------------------
-
 const Triangular = function (a = 3, b = 4, c = 5) {
   return { a, b, c };
 };
@@ -313,9 +307,7 @@ triangles.forEach((triangle, index) => {
 });
 console.groupEnd();
 
-// ------------------------------
 // 1.2.27 – 1.2.28: PI MULTIPLIER
-// ------------------------------
 
 const PiMultiplier = function (multiplier) {
   return function () {
@@ -333,9 +325,7 @@ console.log("π * 2/3 =", twoThirdsPi());
 console.log("π / 2 =", halfPi());
 console.groupEnd();
 
-// ------------------------------
 // 1.2.29 – 1.2.31: PAINTER FUNCTIONS
-// ------------------------------
 
 const Painter = function (color) {
   return function (obj) {
